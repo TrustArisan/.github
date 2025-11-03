@@ -3,8 +3,12 @@
 
 <img width="1024" height="457" alt="Logo-Banner-Perplexity-Generated-Crop" src="https://github.com/user-attachments/assets/0b85bc54-c933-4727-9a60-227312b6ec1a" />
 
-[<span align="center">![MIT License](https://img.shields.io/badge/License-MIT-green.svg)</span>](https://choosealicense.com/licenses/mit/)
-[<span align="center">![Foundry v1.4.4](https://img.shields.io/badge/Smart_Contract-Foundry_v1.4.4-blue)</span>](https://getfoundry.sh/)
+<div align="center">
+  
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Foundry v1.4.4](https://img.shields.io/badge/Smart_Contract-Foundry_v1.4.4-blue)](https://getfoundry.sh/)
+
+</div>
 
 TrustArisan is a dedicated app for Arisan running in BNB Smart Chain (BNC) Blockchain for Decentralization and Local Payment Gateway like ... for integration.
 
