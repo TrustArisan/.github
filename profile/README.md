@@ -7,6 +7,7 @@
   
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Foundry v1.4.4](https://img.shields.io/badge/Smart_Contract-Foundry_v1.4.4-blue)](https://getfoundry.sh/)
+[![Remix v1.3.3](https://img.shields.io/badge/Smart_Contract-Remix_v1.3.3-yellow)](https://remix.live/)
 
 </div>
 
