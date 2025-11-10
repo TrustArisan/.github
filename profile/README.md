@@ -18,7 +18,7 @@ Our app allows creating instant room and start an Arisan session while maintaini
 ## Authors
 
 - [@PressToCode](https://www.github.com/PressToCode)
-- [Person B](#Authors)
+- [@fifahnashwa](https://github.com/fifahnashwa)
 - [Person C](#Authors)
 - [Person D](#Authors)
 
