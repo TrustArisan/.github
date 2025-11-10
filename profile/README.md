@@ -10,9 +10,9 @@
 
 </div>
 
-TrustArisan is a dedicated app for Arisan running in BNB Smart Chain (BNC) Blockchain for Decentralization and Local Payment Gateway like ... for integration.
+TrustArisan is a dedicated app for Arisan running in BNB Smart Chain (BNC) Blockchain for Decentralization, allowing security, transparancy, and fairness.
 
-Our app allows creating instant room and start an Arisan session while maintaining transparency and fairness by allowing all member to see ledgers for information regarding participant, winners, and pool amount.
+Our app allows creating instant room and start an Arisan session while maintaining transparency and fairness by allowing all member to see ledgers for information regarding participant, winners, and pool amount. The pooled amount is stored by Smart Contract with automated escrow to ensure no one, including developer, can meddle with the money stored. We provide a premium for all users for better room size in a subscription-based model to ensure that you use only during the time you need it.
 
 
 ## Authors
