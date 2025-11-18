@@ -28,9 +28,10 @@ Our app allows creating instant room and start an Arisan session while maintaini
 ## Features
 
 - Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Fully transparent transaction
+- Auto-escrow and ROSCA-based rotation
+- Friendly UI/UX and Ease of use
+- Comprehensive Documentation
 
 
 ## API Reference
@@ -65,76 +66,76 @@ Takes two numbers and returns the sum.
 Insert gif or link to demo
 
 
-## Environment Variables
+## Environment Variables (Smart Contract using Foundry)
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
+`PRIVATE_KEY=YOUR_WALLET_PRIVATE_KEY`
 
-`ANOTHER_API_KEY`
+`PLATFORM_WALLET=YOUR_WALLET_TO_RECEIVE_PLATFORM_FEE`
 
 
-## Installation
+## Installation (Frontend)
 
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
-## Deployment
-
-To deploy this project run
+Install frontend with npm
 
 ```bash
-  npm run deploy
-```
-
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
+  git clone https://github.com/TrustArisan/frontend.git
+  cd frontend
   npm install
 ```
+
+## Installation (Smart Contract w/ Foundry)
+
+To use smart contract, you need to install [Rust (recommended using rustup)](https://rustup.rs/) and [Foundry](https://getfoundry.sh/) on your local system
+
+```bash
+  git clone https://github.com/TrustArisan/smart-contract-foundry
+  cd smart-contract-foundry
+  forge install
+```
+
+## Run Locally (Frontend)
 
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
+  // or you can run build and use static
+  npm run build
 ```
 
+## Run Locally (Smart Contract w/ Foundry)
 
-## Running Tests
+Start the server
+
+```bash
+  forge build
+  anvil
+```
+
+then in another terminal. Refer to [foundry docs](https://getfoundry.sh/cast/reference/cast/).
+
+```bash
+  cast deploy <your_settings>
+```
+
+## Running Tests (Smart Contract w/ Foundry)
 
 To run tests, run the following command
 
 ```bash
-  npm run test
+  forge test
 ```
 
 
 ## FAQ
 
-#### Question 1
+#### Question 1: Is there a demo website?
 
-Answer 1
+Yes, our website is at ...
 
-#### Question 2
+#### Question 2: Can i try smart contract?
 
-Answer 2
+Yes, you can try [our deployed smart contract](https://sepolia.etherscan.io/address/0xf57c33757e01c9b0a597f488b63bf780b6e66e81) in Etherium Sepolia Testnet. Be mindful that it uses Eth as it's main transaction coin and may have fluctuating gas prices. For our mainnet deployment, we encourage that you use our existing app using BNB as transaction method.
 
