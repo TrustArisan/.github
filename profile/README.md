@@ -92,7 +92,7 @@ To use smart contract, you need to install [Rust (recommended using rustup)](htt
 ```bash
   git clone https://github.com/TrustArisan/smart-contract-foundry
   cd smart-contract-foundry
-  forge install
+  forge soldeer install
 ```
 
 ## Run Locally (Frontend)
@@ -101,6 +101,7 @@ Start the server
 
 ```bash
   npm run dev
+
   // or you can run build and use static
   npm run build
 ```
